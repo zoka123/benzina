@@ -61,6 +61,8 @@
         event.target.playVideo();
         if(event.target == player2){
           player2.mute()
+        } else if(event.target == player){
+          player.seekTo(6);
         }
       }
 
