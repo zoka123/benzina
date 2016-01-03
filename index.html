@@ -36,17 +36,18 @@
         player = new YT.Player('playerInvisible', {
           height: '390',
           width: '640',
-          videoId: 'afP71xwLI8Y',
+          videoId: 'rHPkwNw4n_4',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
           }
         });
+        player.mute();
         
         player2 = new YT.Player('player', {
           height: '390',
           width: '640',
-          videoId: 'rHPkwNw4n_4',
+          videoId: 'afP71xwLI8Y',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
